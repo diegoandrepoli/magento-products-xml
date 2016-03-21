@@ -23,11 +23,11 @@ class Index extends \Magento\Framework\App\Action\Action {
         //intância do objeto
         $object = \Magento\Framework\App\ObjectManager::getInstance();
         //instância da categoria
-        $category = $object->get('Magento\Catalog\Model\Category');
+        $categories = $object->get('Magento\Catalog\Model\Category');
         //busca categoria
-        $cat_info = $category ->load($id);
+        $category = $categories->load($id);
         //busca produtos da categoria informada
-        $products = $category->getProductCollection()->addCategoryFilter($cat_info)
+        $products = $categories->getProductCollection()->addCategoryFilter($category)
             ->addAttributeToFilter('type_id', 'simple')
             ->addAttributeToSelect('*');
 
