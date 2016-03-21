@@ -14,4 +14,4 @@ O último passo consiste em atualizar os arquivos pré-compilados do Magento, pa
 
 ## Acesso
 É possível acessar o resultado do XML pelo endereço: 
-> <domínio>/xml/category?id=<id-da-categoria>
+> [domínio]/xml/category?id=[id-da-categoria]
