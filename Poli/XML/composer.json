@@ -1,0 +1,13 @@
+{
+  "name": "Poli/XML",
+  "description": "Generate XML module for Magento 2",
+  "type": "magento2-module",
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Poli/XML"
+      ]
+    ]
+  }
+}
