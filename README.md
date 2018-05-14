@@ -1,5 +1,4 @@
-# magento-products-xml
-
+# Listagem de produtos do Magento em formato XML
 Módulo para Magento Community versão 2 tem como objetivo mostrar produtos de uma determinada categoria no formato XML.
 
 ## Instalação
